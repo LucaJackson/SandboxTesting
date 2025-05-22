@@ -4,10 +4,3 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "page1.html";
     });
 });
-
-document.addEventListener("DOMContentLoaded", () => {
-    const button2 = document.getElementById("goToHomePage");
-    button2.addEventListener("click", () => {
-        window.location.href = "index.html";
-    });
-});
